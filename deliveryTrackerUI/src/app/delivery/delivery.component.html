@@ -1,0 +1,27 @@
+<h2>Deliveries</h2>
+
+<ul>
+	<li *ngFor="let delivery of deliveries">
+		<div>
+			<span>id: </span>{{delivery.id}}
+		</div>
+		<div>
+			<span>orderTotal: </span>{{delivery.orderTotal}}
+		</div>
+		<div>
+			<span>tip: </span>{{delivery.tip}}
+		</div>
+		<div>
+			<span>totalPaid: </span>{{delivery.totalPaid}}
+		</div>
+		<div>
+			<span>maintenance: </span>{{delivery.maintenance}}
+		</div>
+		<div>
+			<span>deliveryPayout: </span>{{delivery.deliveryPayout}}
+		</div>
+		<div>
+			<span>shift: </span>{{delivery.shift}}
+		</div>
+	</li>
+</ul>
